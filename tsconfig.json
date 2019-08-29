@@ -13,5 +13,30 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "preserveSymlinks": true,
+    
+  },
+  "paths":{
+    "@frontend/auth":[
+      "../web/frontend/auth/*"
+    ],
+    "@frontend/ui/*":[
+      "../web/frontend/ui/*"
+    ],
+    "@utils/reducer":[
+      "../web/frontend/utils/reducer"
+    ],
+    "@ui/text":[
+      "../web/frontend/ui/text/*"
+    ],
+    "@ui/input":[
+      "../web/frontend/ui/input/*"
+    ],
+    "@ui/button":[
+      "../web/frontend/ui/button/*"
+    ],
+    "@ui/link":[
+      "../web/frontend/ui/link/*"
+    ],
   }
+  
 }
