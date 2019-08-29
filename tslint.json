@@ -1,8 +1,11 @@
 {
   "extends": ["tslint:latest"],
+  
+  
   "rules": {
     "quotemark": [true, "single"],
     "semicolon": [true, "never"],
+    "no-trailing-whitespace": false,
     "object-literal-sort-keys": false,
     "object-literal-key-quotes": [true, "as-needed"],
     "member-access": false,
@@ -10,6 +13,21 @@
     "no-submodule-imports": false,
     "no-implicit-dependencies": false,
     "interface-name": false,
+
+    "trailing-comma": [true, {
+      "singleline": "never",
+      "multiline": {
+        "objects": "ignore",     
+        "arrays": "ignore",
+        "functions": "ignore",
+        "typeLiterals": "ignore"
+       
+      }
+    }],
+    
+
+
     "arrow-parens": [true, "ban-single-arg-parens"]
   }
+  
 }

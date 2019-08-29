@@ -9,6 +9,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowJs": true,
+    "jsx": "react",
     "lib": ["es6"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -38,5 +39,6 @@
       "../web/frontend/ui/link/*"
     ],
   }
+  
   
 }

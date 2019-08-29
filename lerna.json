@@ -2,7 +2,5 @@
   "useWorkspaces":true,
   "npmClient": "yarn",
   "version": "0.0.1",
-  "packages":["frontend/*",
-    "frontend/ui/button/*"
-  ]
+  "packages":["frontend/*"]
 }

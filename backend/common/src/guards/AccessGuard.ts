@@ -4,7 +4,7 @@ import { Reflector } from '@nestjs/core'
 export class AccessGuard implements CanActivate {
   constructor(
     private readonly reflector: Reflector,
-  ) {}
+) {}
 
   canActivate(context: ExecutionContext): boolean | Promise<boolean> {
     const [, , ctx, req] = context.getArgs()
